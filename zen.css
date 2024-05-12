@@ -1,0 +1,16 @@
+div[data-at-shortcutkeys] {
+    visibility: hidden;
+    pointer-events: none;
+}
+  
+div[data-testid="twc-cc-mask"] {
+    pointer-events: none;
+}
+  
+div[data-testid="app-bar-close"] {
+    visibility: hidden;
+}
+  
+div[data-testid="DMDrawer"] {
+    visibility: hidden;
+}

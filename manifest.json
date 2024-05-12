@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ZenTweet",
+  "version": "1.0",
+  "description": "Twitter, but Zen",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["zen.css"],
+      "js": ["redirect.js"]
+    }
+  ]
+}
+  
