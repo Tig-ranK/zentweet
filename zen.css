@@ -7,7 +7,7 @@ div[data-testid="twc-cc-mask"] {
     pointer-events: none;
 }
   
-div[data-testid="app-bar-close"] {
+[data-testid="app-bar-close"] {
     visibility: hidden;
 }
   
